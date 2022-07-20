@@ -37,6 +37,13 @@ h1 {
   margin-left: 30px;
 }
 
+form button {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  margin-left: 60%;
+  font-size: 1.5rem;
+}
+
 .main button {
   font-size: 1rem;
   outline: none;
@@ -93,13 +100,6 @@ form input {
   width: 100%;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
-}
-
-form button {
-  padding: 0.2rem;
-  margin-top: 1rem;
-  margin-left: 60%;
-  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+
 import API_URL from './working.js';
 
 const postData = async (score) => {
