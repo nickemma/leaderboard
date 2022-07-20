@@ -95,7 +95,7 @@ form input {
   margin-top: 1rem;
 }
 
-#add-btn {
+form button {
   padding: 0.2rem;
   margin-top: 1rem;
   margin-left: 60%;
