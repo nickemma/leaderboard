@@ -9,13 +9,4 @@ const displayScore = (data) => {
   });
 };
 
-// const displayScore = (score) => {
-//   listScore.innerHTML = '';
-//   score.forEach((users) => {
-//     const ul = document.createElement('li');
-//     ul.innerHTML = `<li>   ${users.user}  :  ${users.score} </li>`;
-//     listScore.insertAdjacentElement('beforeend', ul);
-//   });
-// };
-
 export default displayScore;

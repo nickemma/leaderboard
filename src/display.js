@@ -1,7 +1,7 @@
 import API_URL from './working.js';
 
-const getData = async (score) => {
-  await fetch(API_URL, {
+const postData = async (score) => {
+  await fetch(`${API_URL}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -10,4 +10,4 @@ const getData = async (score) => {
   });
 };
 
-export default getData;
+export default postData;
