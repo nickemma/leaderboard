@@ -9,6 +9,7 @@ const { name, score } = formAdd.elements;
 
 const addScore = (e) => {
   e.preventDefault();
+  if (!name.value || !score.value) return;
   const scoreData = {
     user: name.value,
     score: score.value,

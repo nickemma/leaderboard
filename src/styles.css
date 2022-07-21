@@ -10,16 +10,16 @@
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #0c324c;
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 2rem;
-  color: #333;
+  color: #fff;
 }
 
 .main {
@@ -30,7 +30,7 @@ h1 {
 
 .main h2 {
   font-size: 2rem;
-  color: #333;
+  color: #fff;
   margin-right: 1.5rem;
   padding: 15px;
   text-transform: capitalize;
@@ -41,15 +41,18 @@ form button {
   padding: 0.2rem;
   margin-top: 1rem;
   margin-left: 60%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 7px;
 }
 
 .main button {
   font-size: 1rem;
   outline: none;
   border: 1px solid #333;
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .add {
@@ -70,25 +73,28 @@ form button {
 
 .scorelist {
   list-style: none;
-  color: blue;
+  background-color: #014e81;
   font-size: 2rem;
   border: 2px solid #2b2b2b;
   padding: 0.5rem 0.5rem;
-  border-radius: 5px;
-  width: 40%;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
 }
 
 .scorelist li {
   margin: 10px;
+  border-radius: 8px;
+  padding: 2px;
 }
 
 .scorelist li:nth-child(odd) {
-  background-color: #f2f2f2;
-  color: #2b2b2b;
+  background-color: #6fb4e2;
+  color: #fff;
 }
 
 .scorelist li:nth-child(even) {
-  background-color: rgb(156, 155, 155);
+  background-color: #fff;
   color: #2a2a2a;
 }
 
@@ -100,6 +106,7 @@ form input {
   width: 100%;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
