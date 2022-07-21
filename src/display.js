@@ -1,6 +1,4 @@
-/* eslint-disable import/extensions */
-
-import API_URL from './working.js';
+import API_URL from './working';
 
 const postData = async (score) => {
   await fetch(`${API_URL}`, {

@@ -1,10 +1,7 @@
-// eslint-disable-next-line no-unused-vars
-import _ from 'lodash';
-/* eslint-disable import/extensions */
 import './styles.css';
-import displayScore from './crud.js';
-import API_URL from './working.js';
-import postData from './display.js';
+import displayScore from './crud';
+import API_URL from './working';
+import postData from './display';
 
 const formAdd = document.querySelector('#form-add');
 const refresh = document.querySelector('#refresh-btn');
