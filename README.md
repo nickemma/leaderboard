@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[coming soon]
+[coming soon](https://glittering-crisp-a07c4c.netlify.app/)
 
 ## Getting Started
 
